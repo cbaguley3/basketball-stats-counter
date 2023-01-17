@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Bball Stats App</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <h1 id="title">Game Stats</h1>
+    <div>
+    <h1>Points Scored:</h1>
+    <h2 id="count-el1">0</h2>
+    <button id="increment-btn" onclick="incrementP()">Add Point</button>
+    <h1>Assists:</h1>
+    <h2 id="count-el2">0</h2>
+    <button id="increment-btn" onclick="incrementA()">Add Assist</button>
+    <h1>Rebounds:</h1>
+    <h2 id="count-el3">0</h2>
+    <button id="increment-btn" onclick="incrementR()">Add Rebound</button>
+    <h1>Blocks:</h1>
+    <h2 id="count-el4">0</h2>
+    <button id="increment-btn" onclick="incrementB()">Add Block</button>
+    <h1>Steals:</h1>
+    <h2 id="count-el5">0</h2>
+    <button id="increment-btn" onclick="incrementS()">Add Steal</button>
+    <h1>Turnovers:</h1>
+    <h2 id="count-el6">0</h2>
+    <button id="increment-btn" onclick="incrementT()">Add Turnover</button>
+    </div>
+
+    <div>
+        <button id="reset-btn" onclick="reset()">Reset</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
