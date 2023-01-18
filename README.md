@@ -2,4 +2,4 @@
 
 A basic stat counting app built with JavaScript.
 
-<img src="myStatsApp.png>
+<img src="myStatsApp.png">
